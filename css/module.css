@@ -1,0 +1,84 @@
+main div p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    
+}
+main div {
+position: relative;
+    
+}
+.a ,.c,.d,.e,.f,.g,.h{
+    border-bottom: none;
+}
+
+@media screen and (max-width: 768px){
+.f,.h{
+    border-left: none;
+}
+.a{
+    background-color: rgb(153, 153, 226);
+}
+.b{
+    border-bottom: none;
+    background-color:rgb(67, 67, 156) ;
+}
+.c{
+    background-color: blueviolet;  
+}
+.d{
+    background-color: cadetblue;   
+}
+.e{
+    background-color: darkcyan;  
+}
+.f{
+    background-color: darkgray;   
+}
+.g{
+    background-color: rgb(121, 116, 153);   
+}
+.h{
+    background-color: rgb(122, 184, 184);    
+}
+.i{
+    background-color: dodgerblue;    
+}
+
+}
+
+@media screen and (min-width: 769px){
+    .b,.f,.c,.e,.g{
+        border-right: none;
+        
+    }
+    .a{
+     background-color: rgb(216, 199, 199);   
+    }
+    .b{
+        background-color: rgb(189, 155, 155);   
+    }
+    .c{
+        background-color: rgb(221, 150, 150);   
+    }
+    .d{
+        background-color: rgb(209, 95, 95);    
+    }
+    .e{
+        background-color: rgb(175, 106, 106);  
+    }
+    .f{
+        background-color: rgb(248, 125, 125); 
+    }
+    .g{
+        background-color: rgb(240, 85, 85);   
+    }
+    .h{
+        background-color: rgb(150, 142, 142);  
+    }
+    .i{
+        background-color: rgb(219, 93, 93);   
+    }
+
+    }
